@@ -1,0 +1,29 @@
+{
+  "name": "8inf956",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src --out-dir dist --source-maps",
+    "start": "npm run compile && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudumendes/8INF956.git"
+  },
+  "keywords": [],
+  "author": "Eduardo Mendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudumendes/8INF956/issues"
+  },
+  "homepage": "https://github.com/dudumendes/8INF956#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.10",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.10",
+    "nodemon": "^2.0.15"
+  }
+}
