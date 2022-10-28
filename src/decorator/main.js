@@ -1,5 +1,5 @@
-import { Beverage, Espresso } from "./component"
-import { ChocolateDecorator, MilkDecorator } from "./decorator"
+import { Beverage, Espresso } from "./component.mjs"
+import { ChocolateDecorator, MilkDecorator } from "./decorator.mjs"
 
 
 let b = new Beverage("Teste")

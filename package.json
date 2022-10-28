@@ -2,28 +2,30 @@
   "name": "8inf956",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "babel src --out-dir dist --source-maps",
-    "start": "npm run compile && node dist/app.js"
+    "start": "npm run compile && node dist/app.js",
+    "decorator": "npm run compile && node --experimental-modules dist/decorator/main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dudumendes/8INF956.git"
+    "url": "https://github.com/8INF853/design-patterns"
   },
   "keywords": [],
   "author": "Eduardo Mendes",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dudumendes/8INF956/issues"
+    "url": "https://github.com/8INF853/design-patterns"
   },
-  "homepage": "https://github.com/dudumendes/8INF956#readme",
+  "homepage": "https://github.com/8INF853/design-patterns#readme",
   "devDependencies": {
     "@babel/cli": "^7.16.8",
     "@babel/core": "^7.16.10",
     "@babel/node": "^7.16.8",
-    "@babel/preset-env": "^7.16.10",
+    "@babel/preset-env": "^7.19.4",
     "nodemon": "^2.0.15"
   }
 }

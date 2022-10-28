@@ -1,6 +1,8 @@
 # 8INF956
 Code pour le cours UQAC - 8INF853 - Architecture d'applications d'entreprise
 
+Seance 5 - Patrons de conception
+<!-- 
 ## Instructions
 
 ### Conditions préalables
@@ -24,4 +26,4 @@ Pour exécuter l'exemple du patron Decorator, vous devez utilisez la commande ci
 
 ```bash
 node dist/decorator/main.js
-```
+``` -->

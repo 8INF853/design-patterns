@@ -1,4 +1,4 @@
-import {Beverage} from "./component"
+import {Beverage} from "./component.mjs"
 
 export class IngredientDecorator extends Beverage {
     constructor(beverage) {
